@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  background-color: #dedede;
+}
+h1,
+h2,
+h3 {
+  margin: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+}
+i {
+  padding: 15px;
+}
+
+.header {
+  height: 150px;
+  background-color: #a9c3d1;
+  display: flex;
+  justify-content: center;
+}
+.header > .name {
+  margin-top: 50px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.intro {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.hero-image > .profile-photo {
+  margin-top: 20px;
+  height: 200px;
+}
+.text {
+  padding: 5px;
+}
+.hero-section > .hero-text {
+  padding: 50px;
+  display: flex;
+}
+.project-photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-header > h3 {
+  padding: 15px;
+}
+.projects {
+  height: 250px;
+}
+.project-section > h2 {
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  margin-top: 50px;
+  height: 125px;
+  background-color: #a9c3d1;
+}
+.social-media {
+  font-size: 1.8em;
+  height: 50px;
+  padding-top: 50px;
+  color: #7a3386;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
